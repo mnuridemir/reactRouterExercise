@@ -1,10 +1,11 @@
 # React Routing
 (https://reactrouter.com/)
-## Exact Prop
-
-## Url Parameters
 -Using fake api
 (https://jsonplaceholder.typicode.com/)
+### Exact Prop
+### Url Parameters
+### Nested Routes
+### "Not Found" Routes
 
 # Getting Started with Create React App
 
