@@ -16,11 +16,13 @@ export default function User() {
 
   return <div>
       <h1>User detail</h1>
+      <h3>User ID : {user.id}</h3>
       {loading && <div>Loading...</div> }
       {!loading && 
       <code>
           {JSON.stringify(user)}
       </code>}
+      
       <br />
 
       <Link to={`/user/${parseInt(id)+1}`}>Next User ({parseInt(id)+1})</Link>

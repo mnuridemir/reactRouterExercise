@@ -22,6 +22,14 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="users" element={<Users />} />
         <Route path="user/:id" element={<User />} />
+        <Route
+        path="*"
+        element={
+        <main style={{ padding: "1rem" }}>
+          <p>There's nothing here!</p>
+        </main>
+      }
+    />
         
       </Routes>
       
